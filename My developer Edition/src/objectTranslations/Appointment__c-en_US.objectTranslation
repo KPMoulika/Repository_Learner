@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Appointment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Appointments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appointment Day --></label>
+        <name>Appointment_Day__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Appointment Time slot --></label>
+        <name>Appointment_Time_slot__c</name>
+        <picklistValues>
+            <masterLabel>11 pm- 7 am</masterLabel>
+            <translation><!-- 11 pm- 7 am --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 pm- 11 pm</masterLabel>
+            <translation><!-- 2 pm- 11 pm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 am- 4 pm</masterLabel>
+            <translation><!-- 7 am- 4 pm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Appointment --></label>
+        <name>Date_of_Appointment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doctor --></label>
+        <name>DoctorApp__c</name>
+        <relationshipLabel><!-- Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>PatientApp__c</name>
+        <relationshipLabel><!-- Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient email --></label>
+        <name>Patient_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient emergency contact email --></label>
+        <name>Patient_emergency_contact_email_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- status --></label>
+        <name>status__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation><!-- Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Appointment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Appointment must be created 4 days in advance --></errorMessage>
+        <name>Appointment_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

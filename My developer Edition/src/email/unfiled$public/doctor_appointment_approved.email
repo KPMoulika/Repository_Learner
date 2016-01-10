@@ -1,0 +1,5 @@
+hi,
+your appoint with appointment ID '{!Appointment__c.Name}' is approved.
+
+Appointment date is {!Appointment__c.Date_of_Appointment__c}
+Doctor assign '{!Appointment__c.DoctorApp__c}'

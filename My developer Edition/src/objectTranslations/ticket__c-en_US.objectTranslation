@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ticket</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>tickets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>Key_User__c</name>
+        <relationshipLabel><!-- tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- input --></label>
+        <name>input__c</name>
+    </fields>
+    <fields>
+        <label><!-- stage --></label>
+        <name>stage__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting</masterLabel>
+            <translation><!-- Waiting --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>ticket Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Request Feedback --></label>
+        <name>feed_back</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Closed date should be there --></errorMessage>
+        <name>ClosedDate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Reqest_feedback --></label>
+        <name>Reqest_feedback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- feed_back --></label>
+        <name>feed_back</name>
+    </webLinks>
+</CustomObjectTranslation>

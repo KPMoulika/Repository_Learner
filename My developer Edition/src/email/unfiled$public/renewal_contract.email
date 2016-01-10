@@ -1,0 +1,3 @@
+Hi, 
+the  contract {!Contract.Name} with contract Id {!Contract.Id} has end  date as {!Contract.EndDate}, which is 20 days from now.
+ So, please renewal the contract
