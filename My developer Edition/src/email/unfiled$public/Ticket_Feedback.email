@@ -1,0 +1,2 @@
+Please provide feedback for the ticket:{!ticket__c.Name} by using the link:
+https://ap2.salesforce.com/{!ticket__c.Id}

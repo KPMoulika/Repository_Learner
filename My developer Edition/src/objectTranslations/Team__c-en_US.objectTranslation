@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Teams</value>
+    </caseValues>
+    <fields>
+        <label><!-- Club Captain --></label>
+        <name>Club_Captain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Team Size --></label>
+        <name>Current_Team_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Location --></label>
+        <name>Team_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wage Budget --></label>
+        <name>Wage_Budget__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

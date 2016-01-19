@@ -1,0 +1,3 @@
+hi,
+
+your appointment with appointment ID '{!Appointment__c.Name}' is fixed with doctor '{!Appointment__c.DoctorApp__c}' dated on {!Appointment__c.Date_of_Appointment__c}'

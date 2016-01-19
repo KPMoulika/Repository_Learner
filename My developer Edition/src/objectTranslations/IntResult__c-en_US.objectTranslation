@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IntResult</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IntResults</value>
+    </caseValues>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>Candidate_Name__c</name>
+        <relationshipLabel><!-- IntResults --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>FinalResult__c</name>
+        <picklistValues>
+            <masterLabel>Cleared</masterLabel>
+            <translation><!-- Cleared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Cleared</masterLabel>
+            <translation><!-- Partially Cleared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>select</masterLabel>
+            <translation><!-- select --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- rating --></label>
+        <name>rating__c</name>
+    </fields>
+    <layouts>
+        <layout>Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
