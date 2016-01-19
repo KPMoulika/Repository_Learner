@@ -1,0 +1,3 @@
+hi,
+
+Opprtunity with id{!Opportunity.Id} is in the stage "{!Opportunity.StageName}"

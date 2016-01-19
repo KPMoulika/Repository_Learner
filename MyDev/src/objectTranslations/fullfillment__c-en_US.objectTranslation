@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>fullfillment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>fullfillments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AccountFullfillment__c</name>
+        <relationshipLabel><!-- fullfillments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DeliveryDate --></label>
+        <name>DeliveryDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Location --></label>
+        <name>Delivery_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>oppFullfillment__c</name>
+        <relationshipLabel><!-- fullfillments --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

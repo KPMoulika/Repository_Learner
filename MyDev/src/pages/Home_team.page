@@ -1,0 +1,8 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  <a href="team creation">create team</a>
+  <a href="add players">add players</a>
+  <a href="view players">view players</a>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

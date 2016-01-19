@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="feedback" recipientType="User" relatedToType="Feedback__c">
+<messaging:plainTextEmailBody >
+Congratulations!
+This is your new Visualforce Email Template.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

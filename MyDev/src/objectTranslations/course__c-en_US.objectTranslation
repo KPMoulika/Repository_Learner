@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>course</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>courses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AccountCourse__c</name>
+        <relationshipLabel><!-- courses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CouseFee --></label>
+        <name>CouseFee__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserName --></label>
+        <name>UserName__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

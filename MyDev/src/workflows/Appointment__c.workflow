@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Appointement_approved</fullName>
+        <description>Appointement approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Patient_email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Patient_emergency_contact_email_del__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/doctor_appointment_approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Remainder</fullName>
+        <description>Remainder</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Patient_email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Patient_emergency_contact_email_del__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Doctor_Appointment_remainder</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Status_field_updation</fullName>
+        <field>status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Status field updation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_updation</fullName>
+        <field>status__c</field>
+        <literalValue>Confirmed</literalValue>
+        <name>Status updation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>appointment_remainder</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Appointment__c.status__c</field>
+            <operation>equals</operation>
+            <value>Confirmed</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Remainder</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Appointment__c.Date_of_Appointment__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>
