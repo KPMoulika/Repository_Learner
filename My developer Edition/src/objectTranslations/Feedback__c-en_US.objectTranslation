@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feedback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feedbackks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Picklist --></label>
+        <name>Picklist__c</name>
+        <picklistValues>
+            <masterLabel>above average</masterLabel>
+            <translation><!-- above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>average</masterLabel>
+            <translation><!-- average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bad</masterLabel>
+            <translation><!-- bad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>high</masterLabel>
+            <translation><!-- high --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>low</masterLabel>
+            <translation><!-- low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ticket_description --></label>
+        <name>Ticket_description__c</name>
+    </fields>
+    <fields>
+        <label><!-- feed back --></label>
+        <name>feed_back__c</name>
+    </fields>
+    <fields>
+        <label><!-- ticket --></label>
+        <name>ticket_f__c</name>
+        <relationshipLabel><!-- Feedbackks --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

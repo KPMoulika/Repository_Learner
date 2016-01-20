@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>sub Category</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>sub Categories</value>
+    </caseValues>
+    <fields>
+        <label><!-- category --></label>
+        <name>category__c</name>
+        <relationshipLabel><!-- sub Categories --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

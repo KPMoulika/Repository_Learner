@@ -1,0 +1,4 @@
+Hi {!Paid_Time_Off__c.Employee_name__c},
+{!Paid_Time_Off__c.Employee_Id__c}
+  
+your PTO approval request is rejected
