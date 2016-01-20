@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Player</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Players</value>
+    </caseValues>
+    <fields>
+        <label><!-- Club Captain --></label>
+        <name>Club_Captain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jersey Number --></label>
+        <name>Jersey_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <relationshipLabel><!-- Players --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

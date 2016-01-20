@@ -1,0 +1,29 @@
+<apex:page standardController="ticket__c" extensions="FeedBackController"  >
+ <apex:form >
+ <apex:pageBlock >
+ <apex:pageBlockButtons >
+ <apex:commandButton action="{!save}" value="save"/>
+ </apex:pageBlockButtons>
+ <apex:pageBlock >
+ 
+ <apex:pageBlockSection >
+
+<apex:inputtextarea label="feedback" value="{!feedback}"/>
+</apex:pageBlockSection>
+</apex:pageBlock>
+<apex:pageBlock >
+
+ Kindly select a number associated with the rating that best describes your experience and indicate for each question below. Rating: 
+1.  Very Satisfied 
+2.  Satisfied 
+3.  Neutral
+4.  Dissatisfied 
+5.  Very Dissatisfied 
+<br/>
+<br/>1. Did the services provided meet the requirements of the request/problem?<span>  </span>
+<apex:inputText value="{!q1}"/>
+
+ </apex:pageBlock>
+ </apex:pageBlock>
+ </apex:form>
+</apex:page>
